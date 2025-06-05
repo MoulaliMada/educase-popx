@@ -1,0 +1,44 @@
+.notfound-img {
+  width: 80%;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.notfound-content {
+  background-color: rgb(244, 243, 243);
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notfound-cart {
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notfound-cart h2 {
+  color: rgb(188, 35, 81);
+  font-family: "Times New Roman";
+  font-style: initial;
+}
+.notfound-cart p {
+  font-size: 15px;
+  color: rgb(82, 80, 80);
+  font-weight: 450;
+  margin-top: 0;
+}
+.notfound-cart button {
+  background-color: rgb(60, 60, 217);
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
