@@ -1,0 +1,112 @@
+.signup-content {
+  background-color: rgb(250, 249, 249);
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.signup-cart h2 {
+  margin: 0;
+  color: rgb(86, 85, 85);
+}
+.field-container {
+  position: relative;
+  margin: 12px 0;
+  margin-bottom: 12px;
+  border: 1.8px solid #d9d5d5;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.field-label {
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  background-color: rgb(247, 245, 245);
+  padding: 0 8px;
+  font-size: 14px;
+  color: rgb(115, 35, 234);
+}
+
+.field-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+.span-in-label {
+  color: red;
+  font-size: 15px;
+}
+.warning {
+  margin: 0;
+  color: red;
+  font-size: 12px;
+}
+.radio-p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.radio-label {
+  margin-right: 15px;
+}
+.radio-label input {
+  accent-color: rgb(115, 35, 234);
+  width: 15px;
+  height: 15px;
+}
+.creat-account-btn {
+  background-color: rgb(115, 35, 234);
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.creat-account-btn:hover {
+  transform: translateY(-5px); /* Moves the button up slightly */
+}
+.Signup-from-btncontainer {
+  min-height: 100%;
+  height: 90vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 375px) {
+  .signup-content {
+    width: 80%;
+    border-color: rgb(166, 162, 162);
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+@media (min-width: 425px) {
+  .signup-content {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .signup-content {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .signup-content {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  .signup-content {
+    width: 25%;
+  }
+}

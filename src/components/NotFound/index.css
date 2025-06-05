@@ -41,7 +41,14 @@
   color: white;
   padding-left: 25px;
   padding-right: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
+.notfound-cart button:hover {
+  transform: translateY(-5px); /* Moves the button up slightly */
+}
+
+/* Adding responsiveness to the page based on screen sizes*/
 
 @media (min-width: 375px) {
   .notfound-content {

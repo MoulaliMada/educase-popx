@@ -1,7 +1,16 @@
 import React from "react";
 import "./index.css";
+import { useNavigate } from "react-router-dom";
 
 function NotFound() {
+  const navigate = useNavigate();
+
+  // Function to handle the "Go to Home" button click
+  // Navigates user back to the home page ("/")
+  function hadbleGoHomeBtn() {
+    navigate("/");
+  }
+
   return (
     <div className="landing-bg">
       <div className="notfound-content">
@@ -16,7 +25,7 @@ function NotFound() {
             The page you're looking for doesn't exist, Let’s get you back to the
             homepage.
           </p>
-          <button>Go to Home</button>
+          <button onClick={hadbleGoHomeBtn}>Go to Home</button>
         </div>
       </div>
     </div>

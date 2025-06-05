@@ -1,0 +1,18 @@
+.signup-content{
+    height: 100vh !important;
+}
+.login-btn-incomplete{
+    background-color: rgb(171, 170, 170);
+}
+.login-btn{
+width: 100%;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.login-btn-complete{
+background-color: rgb(87, 87, 208);
+}
