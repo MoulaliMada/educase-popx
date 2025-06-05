@@ -1,8 +1,8 @@
 .landing-bg {
-  background-color: white;
+  background-color: rgb(255, 253, 253);
 }
 .langing-content {
-  background-color: rgb(228, 225, 225);
+  background-color: rgb(247, 245, 245);
   min-height: 100vh;
   padding: 17px;
   display: flex;
@@ -41,7 +41,22 @@
   font-weight: bold;
   font-size: 13px;
   padding: 9px;
-  border: none;border-radius: 7px;margin-top: 10px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 10px;
   margin-bottom: 20px;
-   
+}
+
+@media (min-width: 375px) {
+  .langing-content {
+    width: 300px;
+    border-color: rgb(166, 162, 162);
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
 }

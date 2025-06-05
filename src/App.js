@@ -6,8 +6,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/*" element={<LandingScreen />} />
-        <Route path="/" element={<NotFound />} />
+        <Route path="/" element={<LandingScreen />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </Router>
   );
