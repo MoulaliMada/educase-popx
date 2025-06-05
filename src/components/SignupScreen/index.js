@@ -6,6 +6,8 @@ import { useNavigate } from "react-router-dom";
 function SignupScreen() {
   const usenavigate = useNavigate();
 
+  // State variables for input values and validation warnings
+
   const [showUserNamewarning, setShowUserNamewarning] = useState(false);
   const [inputfullName, setinputfullName] = useState("");
   const [showPhoneNumberwarning, setShowPhoneNumberwarning] = useState(false);
@@ -19,10 +21,12 @@ function SignupScreen() {
   const [radioInput, setradioInput] = useState(true);
 
   const handleChangeRadio = () => {
+    // Toggle radio button value
     setradioInput(!radioInput);
   };
 
   const handleFullNameBlur = () => {
+    // Handlers for Full Name field
     if (inputfullName === "") {
       setShowUserNamewarning(true);
     } else {
@@ -39,6 +43,7 @@ function SignupScreen() {
     }
   };
 
+  // Handlers for Phone Number field
   const handlePhoneNumberBlur = () => {
     if (inputPhoneNumber === "") {
       setShowPhoneNumberwarning(true);
@@ -56,6 +61,7 @@ function SignupScreen() {
   };
 
   const handleEmailBlur = () => {
+    // Handlers for Email field
     if (inputEmail === "") {
       setShowEmailwarning(true);
     } else {
@@ -70,6 +76,8 @@ function SignupScreen() {
       setShowEmailwarning(false);
     }
   };
+
+  // Handlers for Company Name field
   const handleCompanyNameBlur = () => {
     if (inpuCompanyName === "") {
       setShowCompanyNamewarning(true);
@@ -92,6 +100,8 @@ function SignupScreen() {
       setshowPsswordWarning(false);
     }
   };
+
+  // Handlers for Password field
   const handlepasswordInput = (e) => {
     setInputPassword(e.target.value);
     if (e.target.value === "") {
@@ -101,12 +111,14 @@ function SignupScreen() {
     }
   };
 
+  // Final form submission handler
   const clickingCraeteAccount = () => {
     handleFullNameBlur();
     handlePhoneNumberBlur();
     handleEmailBlur();
     handlepasswordBlur();
     handleCompanyNameBlur();
+    // If all fields are filled, navigate to profile
     if (
       inputfullName !== "" &&
       inputPhoneNumber !== "" &&
@@ -191,7 +203,7 @@ function SignupScreen() {
                   Password <span className="span-in-label">*</span>
                 </label>
                 <input
-                  type="text"
+                  type="password"
                   value={inputPassword}
                   id="password"
                   className="field-input"

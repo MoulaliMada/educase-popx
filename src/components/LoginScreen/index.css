@@ -12,7 +12,12 @@ width: 100%;
     font-weight: bold;
     font-size: 17px;
     border-radius: 5px;
+     cursor: pointer;
+  transition: transform 0.3s ease;
 }
 .login-btn-complete{
 background-color: rgb(87, 87, 208);
+}
+.landing-login-btn:hover {
+  transform: translateY(-5px); /* Moves the button up slightly */
 }

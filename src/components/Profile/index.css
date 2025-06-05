@@ -1,0 +1,60 @@
+.profile-content {
+  padding: 0;
+}
+.profile-cart h2 {
+  color: gray;
+  background-color: white;
+  margin: 0;
+  padding: 17px;
+  font-size: 17px;
+}
+.profile-container {
+  display: flex;
+  padding: 17px;
+}
+.profile-container img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.profile-container h1 {
+  color: gray;
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 0;
+  margin-top: 0;
+}
+.profile-container p {
+  color: gray;
+  font-size: 14px;
+  margin: 10px;
+  margin-left: 0;
+}
+.profile-p-content {
+  color: rgb(71, 69, 69);
+  padding: 17px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0;
+}
+.profile-btn {
+  width: 100%;
+  margin-top: 100px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: rgb(67, 67, 194);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.profile-btn:hover {
+  transform: translateY(-5px); /* Moves the button up slightly */
+}
+.button-container {
+  padding: 17px;
+}
