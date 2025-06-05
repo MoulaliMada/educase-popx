@@ -49,7 +49,7 @@
 
 @media (min-width: 375px) {
   .langing-content {
-    width: 300px;
+    width: 80%;
     border-color: rgb(166, 162, 162);
     border-radius: 10px;
     border-style: solid;
@@ -58,5 +58,24 @@
     height: 60%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
-  
+}
+@media (min-width: 425px) {
+  .langing-content {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .langing-content {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .langing-content {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  .langing-content {
+    width: 25%;
+  }
 }

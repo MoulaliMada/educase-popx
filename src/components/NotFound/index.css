@@ -6,7 +6,7 @@
   margin-right: auto;
 }
 .notfound-content {
-  background-color: rgb(244, 243, 243);
+  background-color: rgb(247, 245, 245);
   height: 100vh;
   padding: 20px;
   box-sizing: border-box;
@@ -16,7 +16,7 @@
   align-items: center;
 }
 .notfound-cart {
-     display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -41,4 +41,36 @@
   color: white;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+@media (min-width: 375px) {
+  .notfound-content {
+    width: 80%;
+    border-color: rgb(166, 162, 162);
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+@media (min-width: 425px) {
+  .notfound-content {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .notfound-content {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .notfound-content {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  .notfound-content {
+    width: 25%;
+  }
 }
